@@ -18,18 +18,6 @@ git-guia/
 ├── estilos.css       # Hoja de estilos
 └── README.md         # Este archivo
 
-🔍 Contenido
-Comandos de Git organizados en categorías:
-
-
-Categoría	                Descripción
-Configuración inicial	    Establecer usuario y configuración básica
-Creación de repositorios	Inicializar y clonar repositorios
-Flujo de trabajo diario	    Status, add, commit y push
-Manejo de ramas	            Crear,cambiar y fusionar ramas
-Trabajo con remotos	        Conectar con repositorios remotos
-Historial de cambios	    Ver logs y diferencias
-Deshacer modificaciones	    Revertir cambios no deseados
 
 
 
