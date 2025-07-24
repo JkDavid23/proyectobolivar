@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía Completa de Git</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Guía Completa de Git</h1>
+        <p>Comandos esenciales para el control de versiones</p>
+    </header>
+
+    <section class="comandos">
+        <h2>Configuración Inicial</h2>
+        <div class="comando">
+            <code>git config --global user.name "Tu Nombre"</code>
+            <p>Configura tu nombre de usuario</p>
+        </div>
+        <div class="comando">
+            <code>git config --global user.email "tu@email.com"</code>
+            <p>Configura tu email</p>
+        </div>
+    </section>
+
+    <section class="comandos">
+        <h2>Crear Repositorios</h2>
+        <div class="comando">
+            <code>git init</code>
+            <p>Inicializa un nuevo repositorio Git</p>
+        </div>
+        <div class="comando">
+            <code>git clone [url]</code>
+            <p>Clona un repositorio existente</p>
+        </div>
+    </section>
+
+    <section class="comandos">
+        <h2>Trabajo Diario</h2>
+        <div class="comando">
+            <code>git status</code>
+            <p>Muestra el estado de tus archivos</p>
+        </div>
+        <div class="comando">
+            <code>git add [archivo]</code>
+            <p>Añade un archivo al área de staging</p>
+        </div>
+        <div class="comando">
+            <code>git commit -m "Mensaje"</code>
+            <p>Guarda los cambios en el repositorio</p>
+        </div>
+        <div class="comando">
+            <code>git push [remote] [rama]</code>
+            <p>Envía tus commits al repositorio remoto</p>
+        </div>
+    </section>
+
+    <section class="comandos">
+        <h2>Ramas</h2>
+        <div class="comando">
+            <code>git branch</code>
+            <p>Lista todas las ramas</p>
+        </div>
+        <div class="comando">
+            <code>git branch [nombre-rama]</code>
+            <p>Crea una nueva rama</p>
+        </div>
+        <div class="comando">
+            <code>git checkout [nombre-rama]</code>
+            <p>Cambia a otra rama</p>
+        </div>
+        <div class="comando">
+            <code>git merge [rama]</code>
+            <p>Fusiona una rama con la actual</p>
+        </div>
+    </section>
+
+    <section class="comandos">
+        <h2>Actualizar y Publicar</h2>
+        <div class="comando">
+            <code>git remote add [remote] [url]</code>
+            <p>Añade un repositorio remoto</p>
+        </div>
+        <div class="comando">
+            <code>git fetch [remote]</code>
+            <p>Descarga cambios del remoto</p>
+        </div>
+        <div class="comando">
+            <code>git pull [remote] [rama]</code>
+            <p>Obtiene cambios y fusiona con la rama actual</p>
+        </div>
+    </section>
+
+    <section class="comandos">
+        <h2>Historial</h2>
+        <div class="comando">
+            <code>git log</code>
+            <p>Muestra el historial de commits</p>
+        </div>
+        <div class="comando">
+            <code>git log --oneline</code>
+            <p>Historial de commits en una línea</p>
+        </div>
+        <div class="comando">
+            <code>git diff</code>
+            <p>Muestra cambios no preparados</p>
+        </div>
+    </section>
+
+    <section class="comandos">
+        <h2>Deshacer Cambios</h2>
+        <div class="comando">
+            <code>git restore [archivo]</code>
+            <p>Descarta cambios en el directorio de trabajo</p>
+        </div>
+        <div class="comando">
+            <code>git reset [commit]</code>
+            <p>Deshace commits manteniendo los cambios</p>
+        </div>
+        <div class="comando">
+            <code>git revert [commit]</code>
+            <p>Crea un nuevo commit que deshace cambios anteriores</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Guía de referencia rápida de Git - &copy; 2023</p>
+    </footer>
+</body>
+</html>
