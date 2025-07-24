@@ -3,7 +3,7 @@
 
     Guía Rápida de Git - Web
 
-    🚀 Cómo Usar
+         Cómo Usar
 
     Clona el repositorio:
 
@@ -11,7 +11,7 @@
 
     Abre git-guia.html en tu navegador
 
-    📂 Estructura de Archivos
+        Estructura de Archivos
 
     git-guia/
     ├── git-guia.html     # Página principal
